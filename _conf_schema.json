@@ -1,0 +1,91 @@
+{
+    "mqtt_ip": {
+        "description": "mqtt_ip",
+        "type": "string",
+        "default": "8.130.140.177"
+    },
+    "mqtt_port": {
+        "description": "mqtt_port",
+        "type": "int",
+        "default": 1883
+    },
+    "mqtt_user": {
+        "description": "mqtt_username",
+        "type": "string",
+        "default": "mqtt"
+    },
+    "mqtt_pwd": {
+        "description": "mqtt_password",
+        "type": "string",
+        "hint": "123456"
+    },
+    "listen_player": {
+        "description": "监听玩家", 
+        "type": "string", 
+        "hint": "xxxx"
+    },
+    "sub_config": {
+        "description": "区服账号配置",
+        "type": "object",
+        "hint": "xxxx",
+        "items": {
+            "servername": {
+                "description": "区服",
+                "type": "string",
+                "hint": "xxxx"
+            },
+            "mygod": {
+                "description": "客户微信",
+                "type": "string",
+                "hint": "xxxx"
+            },
+            "mygod_group": {
+                "description": "客户微信群",
+                "type": "string",
+                "default": ""
+            },
+            "guashiname": {
+                "description": "挂师角色名",
+                "type": "string",
+                "default": ""
+            },
+            "smalluser": {
+                "description": "去算卦的小号账号",
+                "type": "string",
+                "default": ""
+            }
+        }
+    },
+    "sub_config2": {
+        "description": "区服账号配置",
+        "type": "object",
+        "hint": "xxxx",
+        "items": {
+            "servername": {
+                "description": "区服",
+                "type": "string",
+                "hint": "xxxx"
+            },
+            "mygod": {
+                "description": "客户微信",
+                "type": "string",
+                "hint": "xxxx"
+            },
+            "mygod_group": {
+                "description": "客户微信群",
+                "type": "string",
+                "default": ""
+            },
+            "guashiname": {
+                "description": "挂师角色名",
+                "type": "string",
+                "default": ""
+            },
+            "smalluser": {
+                "description": "去算卦的小号账号",
+                "type": "string",
+                "default": ""
+            }
+        }
+    }
+}
